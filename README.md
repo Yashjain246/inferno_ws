@@ -7,7 +7,7 @@ Welcome to the official repository for Team INFERNO's Rover! This repository con
 ### 1. **ESP32 Code**
 - **Arm Control**: Code for controlling the robotic arm's movements.
 - **Drive Control**: Code for handling the driving mechanism, including forward, backward, left, right, and speed control.
-
+ 
 ### 2. **ROS Integration**
 - **Cross Compatibility**: This repository provides integration with both ROS1 and ROS2, enabling joystick movement for controlling the rover.
 - **Joystick Integration**: A ROS node listens to the `/joy` topic, capturing joystick inputs and translating them into commands that are sent to the ESP32 for precise and intuitive control.
